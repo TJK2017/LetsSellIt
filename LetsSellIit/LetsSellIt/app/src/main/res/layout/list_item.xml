@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/llItem"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/ivSetting"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:padding="1dp"
+        android:src="@android:drawable/sym_contact_card" />
+
+    <TextView
+        android:id="@+id/tvSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivSetting"
+        android:gravity="center"
+        android:padding="1dp"
+        android:text="Academic Calendar" />
+</RelativeLayout>
